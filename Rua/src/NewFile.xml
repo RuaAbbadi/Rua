@@ -2,6 +2,11 @@
 <poject default ="compile">
 
 
+<property name ="src.java.dir" location ="./Rua/src"/>
+<property name = "result.dir" location = "./target"/>
+<property name ="result.javaclasses.dir" location ="${result.dir}"/classes"/>
+
+
 
 <target name= "compile">
 <mkdir dir = "${result.javaclasses.dir}"/>
@@ -12,13 +17,7 @@
 
 </target>
 
-<target name ="jar" depends="compile">
 
-<jar destfile="${result.jar.file">
-<fileset dir ="${result.javaclasses.dir">
-</fileset>
-
-</jar>
 
 
 </target>
