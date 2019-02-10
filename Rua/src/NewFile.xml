@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<poject default ="compile">
+<poject default ="Compile">
 
 
 <property name ="src.java.dir" location ="./Rua/src"/>
@@ -8,7 +8,7 @@
 
 
 
-<target name= "compile">
+<target name= "Compile">
 <mkdir dir = "${result.javaclasses.dir}"/>
 <javac srcdir ="${src.java.dir}" destdir="${result.javaclasses.dir}" debug ="true" includeantruntime="false">
 
