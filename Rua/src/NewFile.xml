@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<poject>
+<poject default ="compile">
 
 
 
 <target name= "compile">
+<mkdir dir = "${result.javaclasses.dir}"/>
+<javac srcdir ="${src.java.dir}" destdir="${result.javaclasses.dir}" debug ="true" includeantruntime="false">
+
+
+</javac>
+
+</target>
+
+<target name ="jar" depends="compile">
+
+<jar destfile="${result.jar.file">
+<fileset dir ="${result.javaclasses.dir">
+</fileset>
+
+</jar>
 
 
 </target>
