@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<poject default ="Compile">
+<project default ="Compile">
 
 
 <property name ="Rua.java.dir" location ="./Rua/src"/>
@@ -19,4 +19,4 @@
 
 
 
-</poject>
+</project>
