@@ -2,7 +2,7 @@
 <poject default ="Compile">
 
 
-<property name ="src.java.dir" location ="./Rua/src"/>
+<property name ="Rua.java.dir" location ="./Rua/src"/>
 <property name = "result.dir" location = "./target"/>
 <property name ="result.javaclasses.dir" location ="${result.dir}"/classes"/>
 
