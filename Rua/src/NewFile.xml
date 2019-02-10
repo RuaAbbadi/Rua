@@ -1,9 +1,9 @@
 <project default ="Compile">
 
 
-<property name="Rua.java.dir" value="./Rua/src"/>
-<property name="result.dir" value="./target"/>
-<property name="result.javaclasses.dir" value="${result.dir}/classes"/>
+<property name="Rua.java.dir"/>
+<property name="result.dir"/>
+<property name="result.javaclasses.dir"/>
 
 
 
